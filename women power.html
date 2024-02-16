@@ -1,0 +1,393 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/e5622618cb.js" crossorigin="anonymous"></script>
+
+<style>
+
+#outer{
+min-height:1000px;
+width:1200px;
+margin:0px auto;
+border:2px solid black;
+box-sizing:border-box;
+}
+#menu{
+height:50px;
+width:1200px;
+background:rgba(0,0,0,.8);
+display:flex;
+}
+#m1{
+height:40px;
+width:300px;
+margin-left:50px;
+color:white;
+line-height:45px;
+font-weight:bold;
+font-family:Arial;
+}
+#m2{
+height:40px;
+width:700px;
+display:flex;
+}
+#m2 ul li {
+height:40px;
+width:80px;
+float:left;
+color:black;
+line-height:38px;
+color:white;
+font-weight:bold;
+text-align:center;
+transform:translateY(-10px);
+margin-left:2px;
+margin-left:2px;
+font-size:18px;
+border-radius:5px;
+}
+#m2 ul li:hover{
+background:#c94969;
+box-shadow:0px 0px 4px 4px black;
+transition:all .8s;
+}
+#m2 ul{
+list-style:none;
+}
+#m3{
+height:50px;
+width:148px;
+margin-left:90px;
+color:white;
+background:#c94969;
+line-height:50px;
+font-weight:bold;
+font-family:Arial;
+text-align:center;
+margin-right:3px;
+box-sizing:border-box;
+}
+#m3:hover{
+background:#c94969;
+box-shadow:0px 0px 4px 4px black;
+transition:all .8s;
+}
+a{
+text-decoration:none;
+color:white;
+}
+#slider{
+height:630px;
+width:1200px;
+background:#ffffff;
+}
+
+#row1{
+height:450px;
+width:100%;
+background:rgba(255,255,255,.8);
+background:url('web2.jpg');
+background-size:cover;
+box-sizing:border-box;
+background-attachement:fixed;
+}
+#rg{
+height:450px;
+width:100%;
+background:rgba(0,0,0,.2);
+font-weight:bold;
+color:white;
+font-size:35px;
+font-family:Arial;
+padding-left:400px;
+padding-top:350px;
+box-sizing:border-box;
+text-shadow:0px 0px 8px black;
+transition:all .2s;
+}
+#row2{
+height:100px;
+width:1200px;
+display:flex;
+}
+#row21{
+height:100px;
+width:400px;
+box-sizing:border-box;
+text-align:center;
+padding-top:25px;
+color:white;
+font-family:Arial;
+}
+#slider2{
+min-height:400px;
+width:1200px;
+}
+#r2{
+height:100px;
+width:100%;
+font-weight:bold;
+font-size:45px;
+text-align:center;
+font-family:Arial;
+box-sizing:border-box;
+color:black;
+text-shadow:0px 0px 8px white;
+transition:all .2s;
+}
+#r3{
+height:300px;
+width:1200px;
+display:flex;
+padding-left:100px;
+padding-right:100px;
+box-sizing:border-box;
+margin:0px auto;
+}
+#r31{
+height:300px;
+width:330px;
+margin-left:20px;
+border:1px solid grey;
+box-sizing:border-box;
+}
+#im{
+height:200px;
+width:320px;
+}
+#b{
+padding-left:32px;
+text-align:center;
+font-weight:bold;
+font-size:20px;
+font-family:Arial;
+text-shadow:0px 0px 2px black;
+transition:all .2s;
+}
+#c{
+border-top:3px solid grey;
+width:70%;
+margin-left:50px;
+box-sizing:border-box;
+font-family:Arial;
+font-weight:bold;
+}
+#r4{
+height:80px;
+width:100px;
+margin:0px auto;
+border-radius:2px;
+border:none;
+color:white;
+}
+#btn{
+height:50px;
+width:120px;
+background:#ca5b76;
+font-weight:bold;
+color:white;
+font-size:18px;
+Font-family:Arial;
+}
+#btn:hover{
+background:#c94969;
+box-shadow:0px 0px 4px 4px white inset;
+transition:all .8s;
+}
+#r5{
+height:180px;
+width:100%;
+background:#1f3e8c;
+color:white;
+font-weight:bold;
+font-family:MV Boli;
+text-align:center;
+word-spacing:5px;
+font-size:20px;
+margin-top:10px;
+padding-top:50px;
+}
+#r6{
+min-height:200px;
+width:70%;
+margin:0px auto;
+margin-buttom:100px;
+}
+#r7{
+min-height:400px;
+width:100%;
+display:flex;
+}
+#r71{
+height:400px;
+width:40%;
+background:#1f3e8c;
+padding-top:150px;
+font-weight:bold;
+font-size:60px;
+color:white;
+text-align:center;
+box-sizing:border-box;
+}
+#r72{
+height:400px;
+width:60%;
+}
+#r8{
+height:300px;
+width:1200px;
+display:flex;
+padding:40px 100px 0px 20px;
+box-sizing:border-box;
+}
+#r81{
+height:300px;
+width:300px;
+}
+#r82{
+height:300px;
+width:600px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<div id="outer">
+<div id="menu">
+<div id="m1">
+<i id="c1"class="fa-solid fa-chess-queen"></i>
+<span>WOMEN PWR</span>
+</div>
+<div id="m2">
+<ul>
+<a><li>Home</li></a>
+<a><li>About</li></a>
+<a><li>Support</li></a>
+<a><li>News</li></a>
+<a><li>Events</li></a>
+<a><li>Product</li></a>
+<a><li>Contact</li></a>
+
+</ul>
+</div>
+<div id="m3">
+<a href="#">Donate</a>
+</div>
+</div>
+<div id="slider">
+<div id="row1">
+<div id="rg">
+<span>Empowering Women <br/>&nbsp; &nbsp; &nbsp;& Girls Wordwide</span>
+</div>
+</div>
+<div id="row2">
+<div id="row21" style="background:#c94969;">
+<span style="font-weight:bold;font-size:20px;">Our Vision</span><br/><span>Our Goal & Commitment</span>
+</div>
+<div id="row21" style="background:#2970df">
+<span style="font-weight:bold;font-size:20px;">Our Events</span><br/><span>Register & Help Main Change</span>
+</div>
+<div id="row21" style="background:#213f8e">
+<span style="font-weight:bold;font-size:20px;">Get involved</span><br/><span>Volunteer, Participate or Donate</span>
+</div>
+</div>
+</div>
+<div id="slider2">
+<div id="r2">
+Latest News
+</div>
+<div id="r3">
+<div id="r31">
+<img id="im"src="l1.jpg"/><br/><br/>
+<span id="b">Female Robbies Team W...</span>
+<br/><br/>
+<div id="c" style="border-top:2px solid grey; line-height:30px;"><i class="fa-regular fa-eye"></i> Write a Comment &nbsp;&nbsp; &nbsp;  &nbsp;
+1<i class="fa-regular fa-heart" style="color:red; text-shadow:0px 0px 2px red;
+transition:all .2s;"></i>
+</div>
+</div>
+<div id="r31">
+<img id="im"src="l3.jpg"/>
+<br/><br/>
+<span id="b">Female Robbies Team W...</span>
+<br/><br/>
+<div id="c" style="border-top:2px solid grey; line-height:30px; "><i class="fa-regular fa-eye"></i> <b>Write a Comment</b> &nbsp;&nbsp; &nbsp; &nbsp;
+1<i class="fa-regular fa-heart" style="color:red; text-shadow:0px 0px 2px red;
+transition:all .2s;"></i>
+</div>
+</div>
+<div id="r31">
+<img id="im"src="l2.jpg"/>
+<br/><br/>
+<span id="b">Female Robbies Team W...</span>
+<br/><br/>
+<div id="c" style="border-top:2px solid grey; line-height:30px; "><i class="fa-regular fa-eye"></i> Write a Comment  &nbsp;&nbsp; &nbsp; &nbsp;
+1<i class="fa-regular fa-heart" style="color:red; text-shadow:0px 0px 2px red;
+transition:all .2s;"></i>
+</div>
+</div>
+</div>
+<br/><br/>
+<div id="r4">
+<input id="btn" type="submit" value="Read More"/>
+</div>
+<br/><br/>
+<div id="r5">I am no bird; and no net ensure me; I am a free<br/>human being with an independent will.<br/>Women Power ..</div>
+<br/><br/><div id="r2" style="">
+Upcoming Events
+</div>
+</div>
+<div id="r6">
+<div style="border-bottom:2px solid grey;">
+<pre><span style="font-size:25px;line-height:10px;font-weight:bold;">19<span style="font-size:15px;">Mon/<b>Dec</b>     </span>Lecture:The Gender Pay<span style="font-size:12px;">Gap/Frinocci</span></span>&nbsp;&nbsp;<span></span>                            <input id="btn" type="submit" value="Read More"/>
+</pre>
+</div>
+<div style="border-bottom:2px solid grey;">
+<pre><span style="font-size:25px;line-height:10px;font-weight:bold;">19<span style="font-size:15px;">Mon/<b>Dec</b>     </span>Lecture:The Gender Pay<span style="font-size:12px;">Gap/Frinocci</span></span>&nbsp;&nbsp;<span></span>                            <input id="btn" type="submit" value="Read More"/>
+</pre>
+</div>
+<div style="border-bottom:2px solid grey;">
+<pre><span style="font-size:25px;line-height:10px;font-weight:bold;">19<span style="font-size:15px;">Mon/<b>Dec</b>     </span>Lecture:The Gender Pay<span style="font-size:12px;">Gap/Frinocci</span></span>&nbsp;&nbsp;<span></span>                            <input id="btn" type="submit" value="Read More"/>
+</pre>
+</div>
+</div>
+<br/><br/><br/><div id="r7">
+<div id="r71">Join Us<br/><span style="font-size:20px;">Empower Our<br/>Women and Girls</span>
+ <br/>
+<input id="btn" type="submit" value="Donate Now"/>
+
+<br/></div>
+<div id="r72">
+<img src="a1.png" style="height:400px; width:720"/>
+</div>
+</div>
+<div id="r8">
+<div id="r81">
+<span style="font-size:20px;font-weight:bold;">Women PWR</span><br/>
+<p>I'm a paragraph ,Click here to add<br/>Ypour details. Your Information are <br/>very for women power.</p><br/>
+<span style="font-size:20px;font-weight:bold;">Email :</span>vandana234@gmail.com<br/>
+<span style="font-size:20px;font-weight:bold;">Phone :+918892346548</span><br/>
+<span style="font-size:20px;font-weight:bold;">Registered Charity :</span>34567-44<br/>
+</div>
+<div id="r82">
+<span style="font-size:20px;font-weight:bold;">Get Monthly Updates</span><br/><br/>
+Enter your email here*
+<span style="border-bottom:2px solid black;width:400px;">Email</span><br/><br/>
+<input id="btn" type="submit" value="Sign Up!" style="width:400px;"/>
+</div>
+<div id="r81">
+<span style="font-size:20px;font-weight:bold; padding-left:75px;box-sizing:border-box;">Quick Links</span><br/>
+<center>
+<span>About<br/>
+Support US<br/>
+News<br/>
+Events<br/>
+Product<br/>
+Contact<br/>
+</span>
+</center>
+</div>
+</div>
+</div>
+</body>
+</html>
